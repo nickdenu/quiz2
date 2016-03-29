@@ -56,7 +56,6 @@
 
 	$submit.submit(function(e) {
 		e.preventDefault();
-		console.log("hello");
 		if ($(this).find('input[type="text"]').val() != '') {
 			$(this).find('input').each(function() {
 				$(this).fadeOut("slow");
